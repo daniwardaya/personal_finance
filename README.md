@@ -39,24 +39,6 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
         "password": "12345678"
       }
 
-#### Get All User
--     Method : Get
--     http://localhost:8000/api/users
--     Gunakan Token {Bearer (token)
-
-
-#### Creat Transaction
--     Method : Post
--     localhost:8000/api/transactions
--     Gunakan Token
--     {
-     "user_id": 1,
-     "amount": 500000,
-     "category": "Food",
-     "type": "expense",
-     "date": "2025-01-01",
-     "description": "Lunch at a restaurant"
-    }
 
 ### 4. Penjelasan pendekatan desain backend dan alasan pemilihan teknologi
 Pendekatan desain backend dalam pengembangan aplikasi bertujuan untuk membangun sistem yang efisien, terstruktur, dan mudah dikembangkan lebih lanjut. Beberapa prinsip dasar dalam desain backend meliputi:
