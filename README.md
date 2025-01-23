@@ -17,6 +17,6 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 
 -   PHP >= 8,1
 -   Composer
--   MySQL atau database lain
+-   MySQL
 
 
