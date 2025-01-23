@@ -11,9 +11,9 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 -    php artisan migrate
 -    php artisan migrate --env=testing
 -    php artisan key:generate
--    php artisan serve
--    php artisan test
--    php artisan l5-swagger:generate (akses di http://localhost:8000/api/documentation)
+-    php artisan serve ( akses di http://localhost:8000/api/{endpoint} ) Jalankan Dengan Postman
+-    php artisan test (jika ingin melakukan unit test)
+-    php artisan l5-swagger:generate (akses di http://localhost:8000/api/documentation) Jika ingin menggunakan Swagger
 
 ### 2. Persyaratan
 
@@ -21,7 +21,44 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 -   Composer
 -   MySQL
 
-### 3. Penjelasan pendekatan desain backend dan alasan pemilihan teknologi
+### 3. list Endpoint
+##### Register User
+-     Method : Post
+-     http://localhost:8000/api/register
+-     {
+        "name": "dani",
+        "email": "dani@gmail.com",
+        "password": "12345678",
+        "password_confirmation": "12345678"
+      }
+##### Login
+-    Method : Post
+-    localhost:8000/api/login
+-    {
+    "email": "dani@gmail.com",
+    "password": "12345678"
+    }
+
+#### Get All User
+-     Method : Get
+-     http://localhost:8000/api/users
+-     Gunakan Token {Bearer (token)
+
+
+#### Creat Transaction
+-     Method : Post
+-     localhost:8000/api/transactions
+-     Gunakan Token
+-     {
+     "user_id": 1,
+     "amount": 500000,
+     "category": "Food",
+     "type": "expense",
+     "date": "2025-01-01",
+     "description": "Lunch at a restaurant"
+    }
+
+### 4. Penjelasan pendekatan desain backend dan alasan pemilihan teknologi
 Pendekatan desain backend dalam pengembangan aplikasi bertujuan untuk membangun sistem yang efisien, terstruktur, dan mudah dikembangkan lebih lanjut. Beberapa prinsip dasar dalam desain backend meliputi:
 
 Separation of Concerns (SoC): Memisahkan logika aplikasi ke dalam komponen yang berbeda untuk menjaga keterbacaan dan pemeliharaan kode.
