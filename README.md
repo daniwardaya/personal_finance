@@ -1,6 +1,6 @@
-# Nama Aplikasi
+# Personal Finance
 
-Deskripsi singkat tentang aplikasi Anda.
+Aplikasi test untuk memenuhi persyaratan melamar kerja.
 
 ## Dokumentasi
 
