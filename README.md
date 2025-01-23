@@ -13,7 +13,7 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 -    php artisan key:generate
 -    php artisan serve ( akses di http://localhost:8000/api/{endpoint} ) Jalankan Dengan Postman
 -    php artisan test (jika ingin melakukan unit test)
--    php artisan l5-swagger:generate (akses di http://localhost:8000/api/documentation) Jika ingin menggunakan Swagger
+-    php artisan l5-swagger:generate (buka pada terminal baru setelah php artisan serve dijalankan)  akses di http://localhost:8000/api/documentation Jika ingin menggunakan Swagger
 
 ### 2. Persyaratan
 
