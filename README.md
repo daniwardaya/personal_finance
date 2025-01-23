@@ -6,11 +6,12 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 
 ### 1. Instruksi untuk Menjalankan Aplikasi
 
+-    rubah (.env.example ) menjadi ( .env )
 -    php artisan migrate
--    php artisan serve
--    composer install
--    cp .env.example .env
+-    php artisan migrate --env=testing
 -    php artisan key:generate
+-    php artisan serve
+-    php artisan test
 -    php artisan l5-swagger:generate (akses di http://localhost:8000/api/documentation)
 
 #### Persyaratan
