@@ -19,5 +19,4 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 -   Composer
 -   MySQL atau database lain
 
-#### Unit Testing
-![Testing](Screenshot 2025-01-23 234447.png)
+
