@@ -59,3 +59,6 @@ Dukungan komunitas dan dokumentasi: Laravel memiliki komunitas yang aktif dan do
 Dengan semua keunggulan ini, Laravel cocok untuk pengembangan aplikasi backend yang kompleks, dengan struktur kode yang jelas, aman, dan dapat dengan mudah dikelola.
 
 
+![Deskripsi Gambar](public/test.png)
+
+
