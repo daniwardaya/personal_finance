@@ -21,7 +21,7 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 -   Composer
 -   MySQL
 
-### 3. list Endpoint
+### 3. User Endpoint
 ##### Register User
 -     Method : Post
 -     http://localhost:8000/api/register
