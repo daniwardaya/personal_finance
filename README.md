@@ -14,13 +14,13 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 -    php artisan test
 -    php artisan l5-swagger:generate (akses di http://localhost:8000/api/documentation)
 
-#### Persyaratan
+### 2. Persyaratan
 
 -   PHP >= 8,1
 -   Composer
 -   MySQL
 
-##### Penjelasan pendekatan desain backend dan alasan pemilihan teknologi
+### 3. Penjelasan pendekatan desain backend dan alasan pemilihan teknologi
 Pendekatan desain backend dalam pengembangan aplikasi bertujuan untuk membangun sistem yang efisien, terstruktur, dan mudah dikembangkan lebih lanjut. Beberapa prinsip dasar dalam desain backend meliputi:
 
 Separation of Concerns (SoC): Memisahkan logika aplikasi ke dalam komponen yang berbeda untuk menjaga keterbacaan dan pemeliharaan kode.
