@@ -7,6 +7,7 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 ### 1. Instruksi untuk Menjalankan Aplikasi
 
 -    rubah (.env.example ) menjadi ( .env )
+-    composer install
 -    php artisan migrate
 -    php artisan migrate --env=testing
 -    php artisan key:generate
