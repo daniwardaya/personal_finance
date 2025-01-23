@@ -26,7 +26,7 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 ### 3. User Endpoint
 ##### Register User
 -     Method : Post
--     http://localhost:8000/api/register
+-     http://localhost:8000/api/users/register
 -     {
         "name": "dani",
         "email": "dani@gmail.com",
