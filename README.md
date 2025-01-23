@@ -32,12 +32,12 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
         "password_confirmation": "12345678"
       }
 ##### Login
--    Method : Post
--    localhost:8000/api/login
--    {
-    "email": "dani@gmail.com",
-    "password": "12345678"
-    }
+-        Method : Post
+-        localhost:8000/api/login
+-     {
+        "email": "dani@gmail.com",
+        "password": "12345678"
+      }
 
 #### Get All User
 -     Method : Get
