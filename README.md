@@ -18,3 +18,6 @@ Aplikasi test untuk memenuhi persyaratan melamar kerja.
 -   PHP >= 8,1
 -   Composer
 -   MySQL atau database lain
+
+#### Unit Testing
+![Testing](Screenshot 2025-01-23 234447.png)
