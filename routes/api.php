@@ -25,11 +25,6 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::post('/users/register', [UserController::class, 'register']);
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('jwt.auth');
 
-// Protected routes (requires authentication)
-// Route::middleware(['auth:sanctum'])->group(function () {
-
-// });
-
 Route::middleware(['jwt.auth', 'throttle:api', \App\Http\Middleware\MonitorResponseTime::class])->group(function () {
     // User routes
     Route::get('/users', [UserController::class, 'getAllUsers']);
